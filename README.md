@@ -149,4 +149,32 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="834" alt="Screenshot 2023-02-21 at 2 23 12 AM" src="https://user-images.githubusercontent.com/43849911/220196893-667f98e7-294c-4436-9d37-53d489424aa4.png">
 
+<img width="1124" alt="Screenshot 2023-02-21 at 2 42 46 AM" src="https://user-images.githubusercontent.com/43849911/220199226-7798f03d-0cba-477a-9f82-1a05536d0211.png">
+
+<img width="339" alt="Screenshot 2023-02-21 at 2 43 48 AM" src="https://user-images.githubusercontent.com/43849911/220199343-13fb1dc8-be42-442e-b058-3c95fb0ae684.png">
+
+<img width="1123" alt="Screenshot 2023-02-21 at 2 46 25 AM" src="https://user-images.githubusercontent.com/43849911/220199640-ce5335bc-a5f8-43fd-8146-43ebe5703a7c.png">
+
+<img width="1121" alt="Screenshot 2023-02-21 at 2 47 24 AM" src="https://user-images.githubusercontent.com/43849911/220199783-2b520c4f-a685-45c0-a220-29f32b31494e.png">
+
+<img width="598" alt="Screenshot 2023-02-21 at 2 55 08 AM" src="https://user-images.githubusercontent.com/43849911/220200623-fdb58705-ea7b-450a-89b9-72f4d66447ec.png">
+
+<img width="860" alt="Screenshot 2023-02-21 at 2 55 30 AM" src="https://user-images.githubusercontent.com/43849911/220200663-81c164a7-9c2a-4d0c-a886-2459334dbc53.png">
+
+<img width="966" alt="Screenshot 2023-02-21 at 2 56 31 AM" src="https://user-images.githubusercontent.com/43849911/220200758-1b0c0ea8-b464-4583-8e5f-bf1322133aba.png">
+ 
+ <img width="937" alt="Screenshot 2023-02-21 at 2 56 57 AM" src="https://user-images.githubusercontent.com/43849911/220200807-44a1fd84-d072-4c71-a53e-578d9ef75600.png">
+
+ ```
+ Default Exchange -> Routes messages to a queue by matching a queue name
+ ```
+ 
+ <img width="843" alt="Screenshot 2023-02-21 at 2 58 21 AM" src="https://user-images.githubusercontent.com/43849911/220200953-764be163-f719-4ab7-851b-2ff6d07b10f6.png">
+
+<img width="1433" alt="Screenshot 2023-02-21 at 3 00 37 AM" src="https://user-images.githubusercontent.com/43849911/220201197-392d7bce-4d15-4ae7-bb3b-6c3dbf8c3fbc.png">
+
+<img width="980" alt="Screenshot 2023-02-21 at 3 01 10 AM" src="https://user-images.githubusercontent.com/43849911/220201262-44996fe2-223b-40e1-a79c-ef9e0828a5f5.png">
+
+<img width="670" alt="Screenshot 2023-02-21 at 3 02 32 AM" src="https://user-images.githubusercontent.com/43849911/220201433-349dd7d7-ea17-44b6-9b13-da11ac92c81d.png">
+
 
