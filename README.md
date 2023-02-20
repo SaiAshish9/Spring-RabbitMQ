@@ -40,6 +40,31 @@ Standard RabbitMQ Message Flow
 <img width="927" alt="Screenshot 2023-02-21 at 12 36 18 AM" src="https://user-images.githubusercontent.com/43849911/220182959-6014f24d-3f0a-4ce0-a809-b7d591fc4e84.png">
 
 ```
-Producer will send the message to exchange, from the exchange appropriate queue will pick the message and sent to consumer
+Producer will send the message to exchange, from the exchange appropriate queue will pick the message and consumer pulls it.
+
+Exchange will responsible for routing of the message and it exactly knows what to do.
+
+Binding will used to establish connection b/w queue & exchange.
+
+Queue is a buffer which stores the messages.
+
+Consumer is a user aplication which reads the message.
+
 ```
+
+```
+AMQP is made up of exchanges, queues and bindings:
+1. Direct Exchange
+2. Fanout Exchange
+3. Topic Exchange
+4. Headers Exchange
+5. Default Exchange
+```
+
+```
+1. Direct Exchange : Routes messages to a queue by matching a complete routing key.
+```
+
+<img width="844" alt="Screenshot 2023-02-21 at 12 44 21 AM" src="https://user-images.githubusercontent.com/43849911/220183988-b345abad-2e14-4dc0-9f65-68b9ae17d9e6.png">
+
 
