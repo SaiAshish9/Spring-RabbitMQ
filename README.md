@@ -67,4 +67,7 @@ AMQP is made up of exchanges, queues and bindings:
 
 <img width="844" alt="Screenshot 2023-02-21 at 12 44 21 AM" src="https://user-images.githubusercontent.com/43849911/220183988-b345abad-2e14-4dc0-9f65-68b9ae17d9e6.png">
 
+```
+docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
+```
 
