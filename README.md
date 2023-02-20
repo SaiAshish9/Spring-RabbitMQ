@@ -125,5 +125,8 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="1008" alt="Screenshot 2023-02-21 at 1 52 08 AM" src="https://user-images.githubusercontent.com/43849911/220192212-75b2400d-055a-43b9-8172-74cfdb9e7ebe.png">
 
+<img width="1062" alt="Screenshot 2023-02-21 at 1 54 11 AM" src="https://user-images.githubusercontent.com/43849911/220192424-862e077c-23f5-47cb-9430-ed93d6df43d6.png">
 
-
+ ```
+ Fanout Exchange -> Routes messages to all the queues bound to it.
+ ```
