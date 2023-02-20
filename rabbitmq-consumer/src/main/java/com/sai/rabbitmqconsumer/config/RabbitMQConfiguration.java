@@ -1,9 +1,6 @@
 package com.sai.rabbitmqconsumer.config;
 
-import org.springframework.amqp.core.Binding;
-import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.DirectExchange;
-import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
@@ -17,9 +14,11 @@ public class RabbitMQConfiguration {
 
     public static final String ROUTING_A = "routing.A";
     public static final String ROUTING_B = "routing.B";
+    public static final String ROUTING_ALL = "routing.*";
+
 
     @Bean
-    Queue queue(){
+    Queue queueA(){
         return new Queue("queue.A", false);
     }
 
@@ -29,22 +28,40 @@ public class RabbitMQConfiguration {
     }
 
     @Bean
-    DirectExchange exchange(){
-        return new DirectExchange("exchange.direct");
+    Queue allQueue(){
+        return new Queue("queue.all", false);
     }
 
     @Bean
-    Binding bindingA(Queue queue, DirectExchange exchange){
-        return BindingBuilder.bind(queue)
+    HeadersExchange exchange(){
+        return new HeadersExchange("exchange.header");
+    }
+
+    @Bean
+    Binding binding(Queue queueA, HeadersExchange exchange){
+        return BindingBuilder.bind(queueA)
                 .to(exchange)
-                .with(ROUTING_A);
+                .where("colour")
+                .matches("red");
+//                .with(ROUTING_A);
     }
 
     @Bean
-    Binding bindingB(Queue queueB, DirectExchange exchange){
+    Binding bindingB(Queue queueB, HeadersExchange exchange){
         return BindingBuilder.bind(queueB)
                 .to(exchange)
-                .with(ROUTING_B);
+                .where("colour")
+                .matches("blue");
+//                .with(ROUTING_B);
+    }
+
+    @Bean
+    Binding bindingAll(Queue allQueue, HeadersExchange exchange){
+        return BindingBuilder.bind(allQueue)
+                .to(exchange)
+                .where("colour")
+                .matches("green");
+//                .with(ROUTING_ALL);
     }
     @Bean
     MessageConverter messageConverter(){

@@ -1,6 +1,5 @@
 package com.sai.rabbitmqconsumer.controller;
 
-import com.sai.rabbitmqconsumer.model.Message;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
@@ -10,13 +9,18 @@ import org.springframework.stereotype.Component;
 public class Consumer {
 
     @RabbitListener(queues = "queue.A")
-    private void receive(Message message){
+    private void receive(String message){
         log.info("Message received from QUEUE A -> {}", message);
     }
 
     @RabbitListener(queues = "queue.B")
-    private void receiveB(Message message){
+    private void receiveB(String message){
         log.info("Message received from QUEUE B -> {}", message);
+    }
+
+    @RabbitListener(queues = "queue.all")
+    private void receiveAll(String message){
+        log.info("Message received from ALL QUEUES -> {}", message);
     }
 
 }
