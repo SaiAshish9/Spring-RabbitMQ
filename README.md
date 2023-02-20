@@ -39,3 +39,7 @@ Standard RabbitMQ Message Flow
 
 <img width="927" alt="Screenshot 2023-02-21 at 12 36 18 AM" src="https://user-images.githubusercontent.com/43849911/220182959-6014f24d-3f0a-4ce0-a809-b7d591fc4e84.png">
 
+```
+Producer will send the message to exchange, from the exchange appropriate queue will pick the message and sent to consumer
+```
+
