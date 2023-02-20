@@ -99,6 +99,20 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="1331" alt="Screenshot 2023-02-21 at 1 37 34 AM" src="https://user-images.githubusercontent.com/43849911/220190463-96a57a8f-dd57-4d39-a42e-b3b75c5ff87e.png">
 
+<img width="1233" alt="Screenshot 2023-02-21 at 1 43 48 AM" src="https://user-images.githubusercontent.com/43849911/220191274-0ab6623b-32c4-423b-800f-42cbeb0df555.png">
+
+<img width="1138" alt="Screenshot 2023-02-21 at 1 44 08 AM" src="https://user-images.githubusercontent.com/43849911/220191299-fa1421cc-3841-438e-a200-788aed3cd6e4.png">
+
+<img width="1116" alt="Screenshot 2023-02-21 at 1 44 24 AM" src="https://user-images.githubusercontent.com/43849911/220191330-509e52d6-ee71-4215-a57a-7ae645d11e54.png">
+
+<img width="1033" alt="Screenshot 2023-02-21 at 1 44 46 AM" src="https://user-images.githubusercontent.com/43849911/220191382-a31b567e-b2b3-4049-a257-3aebb7cc5fdc.png">
+
+<img width="1119" alt="Screenshot 2023-02-21 at 1 45 01 AM" src="https://user-images.githubusercontent.com/43849911/220191406-973c62bf-a222-458f-add4-53f64b51736f.png">
+
+<img width="1205" alt="Screenshot 2023-02-21 at 1 45 32 AM" src="https://user-images.githubusercontent.com/43849911/220191446-cfb710f5-58ff-4112-bfb7-74f23a0cfd07.png">
+
+<img width="946" alt="Screenshot 2023-02-21 at 1 45 45 AM" src="https://user-images.githubusercontent.com/43849911/220191467-e71ba475-f05f-4f77-bd1b-273dd69a2454.png">
+
  ```
  Fanout Exchange -> Routes messages to all the queues bound to it.
  ```
