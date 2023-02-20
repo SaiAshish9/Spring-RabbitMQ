@@ -6,6 +6,11 @@ sbin/rabbitmq-server
 ```
 
 ```
+return new AnonmousQueue() 
+this will create a queue with random name and this is auto deleted when server stops
+```
+
+```
 rm -rf ~/.erlang.cookie
 cd sbin
 ./rabbitmq-plugins enable rabbitmq_management
