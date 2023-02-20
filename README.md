@@ -96,3 +96,5 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 <img width="1362" alt="Screenshot 2023-02-21 at 1 27 58 AM" src="https://user-images.githubusercontent.com/43849911/220189262-7a8eac06-5ff5-434a-a886-fe73a0028dca.png">
 
 <img width="1298" alt="Screenshot 2023-02-21 at 1 27 38 AM" src="https://user-images.githubusercontent.com/43849911/220189216-837fb0a7-2b50-4b07-ba3d-fd40821558a3.png">
+
+<img width="1329" alt="Screenshot 2023-02-21 at 1 36 41 AM" src="https://user-images.githubusercontent.com/43849911/220190352-75bbaa5d-a846-4200-aa11-6e0cbe889a92.png">
