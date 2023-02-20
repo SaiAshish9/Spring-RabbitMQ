@@ -123,10 +123,13 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="1155" alt="Screenshot 2023-02-21 at 1 50 02 AM" src="https://user-images.githubusercontent.com/43849911/220191922-be46cf99-bb95-4513-a289-24fb00b6375f.png">
 
-<img width="1008" alt="Screenshot 2023-02-21 at 1 52 08 AM" src="https://user-images.githubusercontent.com/43849911/220192212-75b2400d-055a-43b9-8172-74cfdb9e7ebe.png">
+<img width="1000" alt="Screenshot 2023-02-21 at 1 59 22 AM" src="https://user-images.githubusercontent.com/43849911/220193218-e936aadc-4d81-4a52-bab7-034d14fcb52b.png">
 
 <img width="1062" alt="Screenshot 2023-02-21 at 1 54 11 AM" src="https://user-images.githubusercontent.com/43849911/220192424-862e077c-23f5-47cb-9430-ed93d6df43d6.png">
 
  ```
- Fanout Exchange -> Routes messages to all the queues bound to it.
+ Topic Exchange -> Routes messages to multiple queues by matching a routing key to a pattern.
  ```
+
+<img width="832" alt="Screenshot 2023-02-21 at 2 10 06 AM" src="https://user-images.githubusercontent.com/43849911/220195362-9ddd4c3c-042c-4485-9869-9e50b5093f46.png">
+
