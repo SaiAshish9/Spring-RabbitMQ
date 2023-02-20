@@ -133,3 +133,8 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="832" alt="Screenshot 2023-02-21 at 2 10 06 AM" src="https://user-images.githubusercontent.com/43849911/220195362-9ddd4c3c-042c-4485-9869-9e50b5093f46.png">
 
+ ```
+ Header Exchange -> Routes messages based on message headers.
+ ```
+
+<img width="834" alt="Screenshot 2023-02-21 at 2 23 12 AM" src="https://user-images.githubusercontent.com/43849911/220196893-667f98e7-294c-4436-9d37-53d489424aa4.png">
