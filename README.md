@@ -25,6 +25,10 @@ started 3 plugins.
 ```
 
 ```
+The default administrator username and password are guest and guest.
+```
+
+```
 RabbitMq is a message broker , it accepts and forwards the messages
 
 Message queues provide a means for applications to push information to the queue. The message broker simply takes the information from the sender, translates it between different messaging protocols, if needed, and delivers the message to the correct receiver.
