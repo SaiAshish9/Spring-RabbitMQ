@@ -6,6 +6,7 @@ sbin/rabbitmq-server
 ```
 
 ```
+cd sbin
 ./rabbitmq-plugins enable rabbitmq_management
 Enabling plugins on node rabbit@MBP-C02F5ASXMD6M:
 rabbitmq_management
