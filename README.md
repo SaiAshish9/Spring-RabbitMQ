@@ -135,9 +135,18 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 
 <img width="1529" alt="Screenshot 2023-02-21 at 2 28 02 AM" src="https://user-images.githubusercontent.com/43849911/220197513-4b5558b8-29a5-42d0-aab9-4bf4ec5e3406.png">
 
+<img width="601" alt="Screenshot 2023-02-21 at 2 28 47 AM" src="https://user-images.githubusercontent.com/43849911/220197564-d935be95-2bd4-4949-b356-a2d979b3659d.png">
+
+<img width="686" alt="Screenshot 2023-02-21 at 2 29 21 AM" src="https://user-images.githubusercontent.com/43849911/220197625-663cfa15-a05c-4d10-9803-3970469de172.png">
+
+<img width="719" alt="Screenshot 2023-02-21 at 2 29 45 AM" src="https://user-images.githubusercontent.com/43849911/220197694-d824b223-aebd-430f-abc1-3de6e8f912aa.png">
+
+<img width="828" alt="Screenshot 2023-02-21 at 2 30 17 AM" src="https://user-images.githubusercontent.com/43849911/220197752-36e98f8a-9b2d-44f2-912a-323c2b667732.png">
 
  ```
  Header Exchange -> Routes messages based on message headers.
  ```
 
 <img width="834" alt="Screenshot 2023-02-21 at 2 23 12 AM" src="https://user-images.githubusercontent.com/43849911/220196893-667f98e7-294c-4436-9d37-53d489424aa4.png">
+
+
