@@ -30,6 +30,35 @@ started 3 plugins.
 ```
 
 ```
+./rabbitmq-server 
+2023-02-21 09:10:16.694076+05:30 [notice] <0.44.0> Application syslog exited with reason: stopped
+2023-02-21 09:10:16.697456+05:30 [notice] <0.228.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+
+  ##  ##      RabbitMQ 3.11.6
+  ##  ##
+  ##########  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+  ######  ##
+  ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
+  Erlang:      25.2.3 [jit]
+  TLS Library: OpenSSL - OpenSSL 1.1.1t  7 Feb 2023
+  Release series support status: supported
+
+  Doc guides:  https://rabbitmq.com/documentation.html
+  Support:     https://rabbitmq.com/contact.html
+  Tutorials:   https://rabbitmq.com/getstarted.html
+  Monitoring:  https://rabbitmq.com/monitoring.html
+
+  Logs: /Users/saiashish/Downloads/rabbitmq_server-3.11.6/var/log/rabbitmq/rabbit@MBP-C02F5ASXMD6M.log
+        /Users/saiashish/Downloads/rabbitmq_server-3.11.6/var/log/rabbitmq/rabbit@MBP-C02F5ASXMD6M_upgrade.log
+        <stdout>
+
+  Config file(s): (none)
+
+  Starting broker... completed with 3 plugins.
+```
+
+```
 The default administrator username and password are guest and guest.
 ```
 
@@ -181,5 +210,3 @@ docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 <img width="980" alt="Screenshot 2023-02-21 at 3 01 10 AM" src="https://user-images.githubusercontent.com/43849911/220201262-44996fe2-223b-40e1-a79c-ef9e0828a5f5.png">
 
 <img width="670" alt="Screenshot 2023-02-21 at 3 02 32 AM" src="https://user-images.githubusercontent.com/43849911/220201433-349dd7d7-ea17-44b6-9b13-da11ac92c81d.png">
-
-
